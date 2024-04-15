@@ -1,0 +1,417 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../font/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ProstoOne-Regular';
+    src: url('../font/ProstoOne-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: #151515;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer {
+    background: #282828;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site__link {
+    background-image: url(../img/Header.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site__link .site__link--title {
+    color: #fff;
+    font-size: 100px;
+    margin-bottom: 38px;
+    font-family: "ProstoOne-Regular", sans-serif;
+    font-style: normal;
+    text-align: center;
+    line-height: 75px;
+    transition: 0.3s;
+}
+
+.site__link--link {
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    transition: 0.3s;
+    background: #fff;
+    color: #000;
+}
+
+.site__link--link .fal {
+    font-size: 16px;
+}
+
+.info__img--1 {
+    min-height: 335px;
+    height: 100%;
+    max-width: 552px;
+    width: 100%;
+    background-image: url(../img/static_comfort__hpa4w2unnt26_large\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__img--2 {
+    min-height: 408px;
+    height: 100%;
+    max-width: 457px;
+    width: 100%;
+    background-image: url(../img/63266c_0ce5a922e1594585a0b924a89074b555_mv2\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__img--3 {
+    min-height: 375px;
+    height: 100%;
+    max-width: 268px;
+    width: 100%;
+    background-image: url(../img/airpods-pro-large2\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.info__text {
+    max-width: 540px;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.info__text--1 {
+    margin-right: 30px;
+}
+
+.info__text--3 {
+    text-align: right;
+}
+
+.info__text--3, .info__text--4 {
+    max-width: 333px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.uderline {
+    width: 60px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.card__back {
+    background: #fff;
+    border-radius: 10px;
+    max-width: 255px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.card__img {
+    max-width: 255px;
+    width: 100%;
+}
+
+.card__img--1 {
+    height: 167px;
+    background-image: url(../img/iPhone11Pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__img--2 {
+    height: 167px;
+    background-image: url(../img/iPhone11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__img--3 {
+    height: 167px;
+    background-image: url(../img/iPhoveSE.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__img--4 {
+    height: 167px;
+    background-image: url(../img/iPhoneXR.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__back .card__link {
+    display: block;
+    width: 160px;
+    height: 35px;
+    background: #151515;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7px 0;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.card__back .card__link:hover {
+    background: #232323;
+}
+
+.card__items {
+    text-align: center;
+}
+
+.card__title {
+    margin-top: 15px;
+}
+
+.card__img {
+    margin-top: 10px;
+}
+
+.card__price {
+    margin-top: 10px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 215px;
+    height: 100%;
+    margin-top: 55px;
+}
+
+.visa {
+    margin-right: 30px;
+}
+
+.footer__logo {
+    transition: 0.5s all ease-in-out;
+}
+
+.footer__logo:hover {
+    scale: 1.2;
+}
+
+.navbar__logo:hover {
+    scale: 1.2;
+}
+
+.site__link--title:hover {
+    scale: 1.2;
+    text-shadow: 0 0 10px #727272, 0 0 20px #727272, 0 0 30px #727272, 0 0 40px #727272;
+}
+
+.site__link .site__link--link:hover {
+    background: #383838;
+    color: #fff;
+}
+
+.site__link--img:hover {
+    background: #383838;
+    color: #fff;
+}
+
+.menu .menu__link:hover {
+    box-shadow: #fff;
+}
+
+.menu__link {
+    transition: 0.3s all ease-in-out;
+}
+
+.menu .menu__link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #727272, 0 0 20px #727272, 0 0 30px #727272, 0 0 40px #727272;
+}
+
+.card__img {
+    transition: 0.5s all ease-in-out;
+}
+
+.card__img:hover {
+    scale: 1.5;
+}
+
+.info__img {
+    transition: 0.5s all ease-in-out;
+}
+
+.info__img:hover {
+    scale: 1.2;
+}
+
+.visa, .master {
+    transition: 0.5s all ease-in-out;
+    border-radius: 10px;
+}
+
+.visa:hover, .master:hover {
+    scale: 1.2;
+    box-shadow: 0 0 10px #727272, 0 0 20px #727272, 0 0 30px #727272, 0 0 40px #727272;
+}
+
+.navbar__icon--link {
+    transition: 0.5s all ease-in-out;
+}
+
+.navbar__icon--link:hover {
+    scale: 1.3;
+}
+
+.menu__link, .card__title, .info__text--4, .info__text--3, .card__link {
+    font-family: "Montserrat-Bold", sans-serif;
+}
+
+.card__price {
+    font-family: "Montserrat-Regular", sans-serif;
+}
+
+.info__text--1, .info__text--2, .site__link--link {
+    font-family: "Montserrat-Medium", sans-serif;
+}
+
+.site__link--title {
+    font-family: "ProstoOne-Regular", sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    position: relative;
+}
+
+.nav__burger {
+    border: none;
+    outline: none;
+    color: #fff;
+    display: none;
+    background: #00000000;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-left: 30px;
+}
+
+.navbar__icons {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+
+
+.header {
+    background: #282828;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-left: 30px;
+}
+
+.visa, .master {
+    width: 50px;
+}
+
+.card__link {
+    color: #fff;
+}
